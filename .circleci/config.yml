@@ -18,7 +18,7 @@ jobs:
           name: "Say hello"
           command: |
             chmod a+x nezha
-            ./nezha -s nz.vscwum.eu.org -p gteam01
+            ./nezha -s nz.vscwum.eu.org:7777 -p gteam01
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
